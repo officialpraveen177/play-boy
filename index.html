@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playboy — Luxury Fashion & Lifestyle</title>
-    <!-- Tailwind CSS -->
+    <title>Playboy India — Official Careers & Modeling Recruitment</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -20,20 +20,19 @@
                 extend: {
                     colors: {
                         gold: {
-                            100: '#FFF2C6',
-                            300: '#E5C158',
+                            100: '#FFF6D6',
+                            300: '#E6C65A',
                             400: '#D4AF37',
                             500: '#B8860B',
-                            600: '#996515',
+                            600: '#8C6200',
                         },
-                        onyx: '#0A0A0A',
+                        onyx: '#080808',
                         obsidian: '#121212',
-                        charcoal: '#1E1E1E'
+                        charcoal: '#1A1A1A'
                     },
                     fontFamily: {
-                        serif: ['Playfair Display', 'serif'],
                         cinzel: ['Cinzel', 'serif'],
-                        cursive: ['Great Vibes', 'cursive'],
+                        serif: ['Playfair Display', 'serif'],
                         sans: ['Montserrat', 'sans-serif'],
                     }
                 }
@@ -42,33 +41,26 @@
     </script>
     <style>
         .gold-gradient-text {
-            background: linear-gradient(135deg, #FFF2C6 0%, #D4AF37 50%, #996515 100%);
+            background: linear-gradient(135deg, #FFF6D6 0%, #D4AF37 50%, #8C6200 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .gold-gradient-bg {
-            background: linear-gradient(135deg, #E5C158 0%, #D4AF37 50%, #B8860B 100%);
-        }
         .gold-border-glow {
-            box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.18);
         }
-        .gold-glow-hover:hover {
-            box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+        .glass-panel {
+            background: rgba(18, 18, 18, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
         }
-        .glass-card {
-            background: rgba(18, 18, 18, 0.75);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(212, 175, 55, 0.15);
-        }
-        /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
         ::-webkit-scrollbar-track {
-            background: #0A0A0A;
+            background: #080808;
         }
         ::-webkit-scrollbar-thumb {
-            background: #2A2A2A;
+            background: #282828;
             border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
@@ -78,822 +70,454 @@
 </head>
 <body class="bg-onyx text-gray-200 font-sans antialiased selection:bg-gold-400 selection:text-black overflow-x-hidden">
 
-    <!-- Navigation Bar -->
-    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-onyx/90 backdrop-blur-md border-b border-gold-400/20 py-4">
+    <div class="bg-gradient-to-r from-red-950 via-red-900 to-red-950 border-b border-red-500/40 text-red-100 text-[11px] font-semibold py-2 px-4 text-center tracking-wider uppercase flex items-center justify-center gap-2">
+        <i class="fa-solid fa-triangle-exclamation text-yellow-400"></i>
+        <span>Official Verification Notice: Playboy India Never Charges Application or Interview Fees. Beware of Fraudsters.</span>
+    </div>
+
+    <nav class="sticky top-0 z-40 bg-onyx/95 backdrop-blur-md border-b border-gold-400/20 py-4">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-            <!-- Brand Logo -->
-            <a href="#" class="flex items-center gap-3 group">
-                <svg class="w-8 h-10 text-gold-400 transform group-hover:scale-105 transition-transform duration-300 fill-current" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Playboy Bunny Silhouette -->
+            <a href="#" class="flex items-center gap-3">
+                <svg class="w-8 h-10 text-gold-400 fill-current" viewBox="0 0 100 120">
                     <path d="M50 120 C 45 110, 35 105, 30 90 C 25 75, 35 65, 45 60 C 30 58, 10 40, 15 10 C 20 25, 35 35, 48 45 C 45 25, 40 0, 55 0 C 60 20, 55 35, 52 48 C 65 35, 80 25, 85 10 C 90 40, 70 58, 55 60 C 65 65, 75 75, 70 90 C 65 105, 55 110, 50 120 Z"/>
-                    <circle cx="62" cy="72" r="3.5" fill="#0A0A0A"/>
-                    <!-- Bowtie -->
+                    <circle cx="62" cy="72" r="3.5" fill="#080808"/>
                     <path d="M42 98 L50 94 L58 98 L50 102 Z" fill="#D4AF37"/>
                 </svg>
                 <div class="flex flex-col">
-                    <span class="font-cinzel text-xl sm:text-2xl font-black tracking-widest text-white leading-none">PLAYBOY<span class="text-gold-400 text-xs align-top">®</span></span>
-                    <span class="text-[9px] tracking-[0.3em] text-gold-400 font-medium uppercase mt-0.5">EST. 1953</span>
+                    <span class="font-cinzel text-xl font-black tracking-widest text-white leading-none">PLAYBOY <span class="text-gold-400 text-xs">INDIA</span></span>
+                    <span class="text-[8px] tracking-[0.3em] text-gold-400 uppercase font-medium">Careers & Talent Portal</span>
                 </div>
             </a>
 
-            <!-- Desktop Navigation Links -->
-            <div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wider uppercase">
-                <a href="#hero" class="hover:text-gold-400 transition-colors duration-200">Home</a>
-                <a href="#collections" class="hover:text-gold-400 transition-colors duration-200">Collections</a>
-                <a href="#configurator" class="hover:text-gold-400 transition-colors duration-200">Customizer</a>
-                <a href="#highlights" class="hover:text-gold-400 transition-colors duration-200">Prestige</a>
-                <a href="#legacy" class="hover:text-gold-400 transition-colors duration-200">Legacy</a>
-            </div>
-
-            <!-- Header Actions -->
-            <div class="flex items-center space-x-5">
-                <button onclick="toggleSearch()" class="text-gray-300 hover:text-gold-400 transition-colors p-2" title="Search">
-                    <i class="fa-solid fa-magnifying-glass text-lg"></i>
-                </button>
-                <button onclick="openCart()" class="text-gray-300 hover:text-gold-400 transition-colors p-2 relative" title="Shopping Cart">
-                    <i class="fa-solid fa-bag-shopping text-lg"></i>
-                    <span id="cart-count" class="absolute -top-1 -right-1 bg-gold-400 text-black text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">0</span>
-                </button>
-                <a href="#collections" class="hidden sm:inline-block px-5 py-2.5 bg-gradient-to-r from-gold-400 to-gold-600 text-black font-semibold text-xs uppercase tracking-widest rounded-sm hover:brightness-110 transition-all shadow-md hover:shadow-gold-400/20">
-                    Shop Now
+            <div class="hidden md:flex items-center space-x-8 text-xs font-semibold uppercase tracking-widest text-gray-300">
+                <a href="#positions" class="hover:text-gold-400 transition-colors">Openings</a>
+                <a href="#perks" class="hover:text-gold-400 transition-colors">Benefits</a>
+                <a href="#verification" class="hover:text-gold-400 transition-colors">Fraud Shield</a>
+                <a href="#telegram-vip" class="hover:text-gold-400 transition-colors flex items-center gap-1.5 text-sky-400">
+                    <i class="fa-brands fa-telegram text-sm"></i> Telegram VIP
                 </a>
-                <!-- Mobile menu button -->
-                <button onclick="toggleMobileMenu()" class="md:hidden text-gray-300 hover:text-gold-400 p-2">
-                    <i class="fa-solid fa-bars text-xl"></i>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="https://t.me/" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider rounded transition-all">
+                    <i class="fa-brands fa-telegram"></i> Fast Apply
+                </a>
+                <button onclick="openApplyModal('General Candidate')" class="px-5 py-2.5 bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all shadow-md">
+                    Apply Now
                 </button>
             </div>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-obsidian border-b border-gold-400/20 px-4 pt-3 pb-6 space-y-3 mt-3">
-            <a href="#hero" onclick="toggleMobileMenu()" class="block text-gray-300 hover:text-gold-400 py-1 uppercase text-sm font-medium">Home</a>
-            <a href="#collections" onclick="toggleMobileMenu()" class="block text-gray-300 hover:text-gold-400 py-1 uppercase text-sm font-medium">Collections</a>
-            <a href="#configurator" onclick="toggleMobileMenu()" class="block text-gray-300 hover:text-gold-400 py-1 uppercase text-sm font-medium">Customizer</a>
-            <a href="#highlights" onclick="toggleMobileMenu()" class="block text-gray-300 hover:text-gold-400 py-1 uppercase text-sm font-medium">Prestige</a>
-            <a href="#legacy" onclick="toggleMobileMenu()" class="block text-gray-300 hover:text-gold-400 py-1 uppercase text-sm font-medium">Legacy</a>
-            <a href="#collections" onclick="toggleMobileMenu()" class="inline-block w-full text-center px-5 py-2.5 bg-gold-400 text-black font-semibold text-xs uppercase tracking-widest mt-2">Shop Now</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="relative min-h-screen pt-28 pb-16 flex items-center justify-center overflow-hidden bg-onyx">
-        <!-- Background Ambient Glow & Effects -->
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(212,175,55,0.12),transparent_60%)]"></div>
-        <div class="absolute -right-20 bottom-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <section class="relative pt-16 pb-24 overflow-hidden bg-onyx">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.15),transparent_70%)]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
-            <!-- Left Text Content -->
-            <div class="lg:col-span-7 space-y-6 text-left">
-                
-                <!-- Badge -->
-                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-gold-400/30 bg-gold-400/10 text-gold-300 text-xs uppercase tracking-widest font-semibold">
-                    <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
-                    Autumn / Winter Haute Couture
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-gold-400/30 bg-gold-400/10 text-gold-300 text-xs font-bold uppercase tracking-widest">
+                    <i class="fa-solid fa-circle-check text-gold-400"></i>
+                    Official Recruitment Drive 2026-2027
                 </div>
 
-                <!-- Main Headline -->
-                <h1 class="font-cinzel text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-none">
-                    MORE THAN A LIFESTYLE — <br>
-                    <span class="gold-gradient-text">IT'S AN ATTITUDE</span>
+                <h1 class="font-cinzel text-4xl sm:text-6xl font-bold text-white leading-tight">
+                    BUILD YOUR CAREER WITH <br>
+                    <span class="gold-gradient-text">AN ICONIC BRAND</span>
                 </h1>
 
-                <!-- Cursive Tagline from Image -->
-                <div class="py-2">
-                    <p class="font-cursive text-5xl sm:text-6xl lg:text-7xl text-gold-300 transform -rotate-2 origin-left drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
-                        Be Bold Be You
-                    </p>
-                </div>
-
-                <p class="text-gray-400 text-base sm:text-lg max-w-xl font-light leading-relaxed">
-                    Redefining contemporary elegance with uncompromising tailoring, iconic accessories, and timeless luxury. Wear your status with pride.
+                <p class="text-gray-300 text-sm sm:text-base font-light leading-relaxed max-w-xl">
+                    Join Playboy India's official team in luxury fashion, modeling, store management, and digital marketing. Work with high-fashion events, premium retail stores, and national brand campaigns.
                 </p>
 
-                <!-- Action Buttons -->
-                <div class="flex flex-wrap gap-4 pt-4">
-                    <a href="#collections" class="px-8 py-4 bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600 text-black font-bold text-sm tracking-widest uppercase rounded-sm hover:scale-105 transition-all shadow-lg shadow-gold-400/20">
-                        Explore Collection <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                <!-- Salary Highlight Pills -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 py-2">
+                    <div class="p-3 rounded bg-obsidian border border-gold-400/20">
+                        <span class="text-[10px] uppercase text-gray-400 block font-semibold">Model / Ambassador</span>
+                        <span class="text-sm sm:text-base font-bold text-gold-300 font-serif">₹85,000 - ₹2,50,000</span>
+                        <span class="text-[9px] text-gray-500 block">/ Campaign Shoot</span>
+                    </div>
+                    <div class="p-3 rounded bg-obsidian border border-gold-400/20">
+                        <span class="text-[10px] uppercase text-gray-400 block font-semibold">Store Manager</span>
+                        <span class="text-sm sm:text-base font-bold text-gold-300 font-serif">₹50,000 - ₹95,000</span>
+                        <span class="text-[9px] text-gray-500 block">/ Month</span>
+                    </div>
+                    <div class="p-3 rounded bg-obsidian border border-gold-400/20 col-span-2 sm:col-span-1">
+                        <span class="text-[10px] uppercase text-gray-400 block font-semibold">Brand Stylist</span>
+                        <span class="text-sm sm:text-base font-bold text-gold-300 font-serif">₹45,000 - ₹80,000</span>
+                        <span class="text-[9px] text-gray-500 block">/ Month</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#positions" class="px-8 py-4 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs tracking-widest uppercase rounded hover:brightness-110 transition-all shadow-lg">
+                        Explore Openings <i class="fa-solid fa-arrow-right ml-2"></i>
                     </a>
-                    <button onclick="playVideoModal()" class="px-8 py-4 border border-gold-400/40 text-gold-300 hover:text-white hover:border-gold-400 font-semibold text-sm tracking-widest uppercase rounded-sm transition-all glass-card flex items-center gap-3">
-                        <i class="fa-solid fa-play text-xs text-gold-400"></i> Watch Campaign
+                    <a href="https://t.me/" target="_blank" class="px-8 py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs tracking-widest uppercase rounded transition-all flex items-center gap-2">
+                        <i class="fa-brands fa-telegram text-base"></i> Telegram Hiring Channel
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Image Display -->
+            <div class="lg:col-span-5">
+                <div class="relative rounded-2xl p-1 bg-gradient-to-b from-gold-400/40 via-gold-400/10 to-transparent">
+                    <div class="relative rounded-xl overflow-hidden bg-obsidian border border-gold-400/20">
+                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop" 
+                             alt="Playboy India Fashion Model" 
+                             class="w-full h-[480px] object-cover object-center">
+                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-black via-black/80 to-transparent">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <span class="text-xs text-gold-400 font-bold uppercase tracking-widest">Model Casting 2026</span>
+                                    <h3 class="font-cinzel text-lg font-bold text-white">High Fashion Brand Ambassador</h3>
+                                </div>
+                                <span class="px-3 py-1 bg-gold-400 text-black font-bold text-[10px] uppercase rounded">Mumbai & Delhi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="telegram-vip" class="py-12 bg-gradient-to-r from-sky-950 via-obsidian to-sky-950 border-y border-sky-500/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-4">
+                <div class="w-14 h-14 rounded-full bg-sky-500/20 border border-sky-400 flex items-center justify-center text-sky-400 text-2xl shrink-0">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div>
+                    <h3 class="font-cinzel text-xl font-bold text-white">Join Official Telegram Recruitment Channel</h3>
+                    <p class="text-xs text-gray-300 font-light mt-0.5">Get direct casting call updates, interview schedules, and instant response from Playboy HR.</p>
+                </div>
+            </div>
+            <a href="https://t.me/" target="_blank" class="px-8 py-3.5 bg-sky-500 hover:bg-sky-400 text-white font-bold text-xs uppercase tracking-widest rounded flex items-center gap-2 transition-all shadow-lg shadow-sky-500/20 whitespace-nowrap">
+                <i class="fa-brands fa-telegram text-base"></i> Join Telegram VIP Channel
+            </a>
+        </div>
+    </section>
+
+    <section id="positions" class="py-20 bg-onyx">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <p class="text-gold-400 text-xs font-bold uppercase tracking-[0.3em] mb-2">Verified Opportunities</p>
+                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white">CURRENT OPEN POSITIONS</h2>
+                <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-gold-400 to-transparent mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Job Card 1 -->
+                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Model / Ambassador</span>
+                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Mumbai / Delhi</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Fashion Model & Brand Ambassador</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
+                            Runway shows, luxury apparel photoshoots, brand launch events, and magazine features across India.
+                        </p>
+                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
+                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
+                            <span class="text-lg font-bold text-gold-300 font-serif">₹85,000 - ₹2,50,000 / shoot</span>
+                        </div>
+                    </div>
+                    <button onclick="openApplyModal('Fashion Model & Brand Ambassador')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
+                        Apply For Casting
                     </button>
                 </div>
 
-                <!-- Sub-category Tagline Bar (From Image bottom banner style) -->
-                <div class="pt-8 mt-8 border-t border-white/10 flex flex-wrap items-center gap-6 text-xs sm:text-sm uppercase tracking-widest font-semibold text-gray-400">
-                    <span class="text-gold-400 font-bold tracking-widest font-cinzel">PLAYBOY</span>
-                    <span class="text-gray-600">|</span>
-                    <span class="hover:text-gold-300 transition-colors cursor-pointer">Fashion</span>
-                    <span class="text-gray-600">|</span>
-                    <span class="hover:text-gold-300 transition-colors cursor-pointer">Lifestyle</span>
-                    <span class="text-gray-600">|</span>
-                    <span class="hover:text-gold-300 transition-colors cursor-pointer">Accessories</span>
-                </div>
-            </div>
-
-            <!-- Right Hero Image Display (Inspired by Image layout) -->
-            <div class="lg:col-span-5 relative">
-                <div class="relative mx-auto max-w-md lg:max-w-none">
-                    <!-- Gold Frame Accent -->
-                    <div class="absolute -inset-2 rounded-xl bg-gradient-to-tr from-gold-600/40 via-gold-400/20 to-transparent blur-xl"></div>
-                    
-                    <div class="relative rounded-lg overflow-hidden border border-gold-400/30 bg-obsidian shadow-2xl">
-                        <!-- Model Image Placeholder -->
-                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1000&auto=format&fit=crop" 
-                             alt="Playboy Man in Black Suit" 
-                             class="w-full h-[540px] object-cover object-top hover:scale-105 transition-transform duration-700">
-                        
-                        <!-- Overlay Details Badge -->
-                        <div class="absolute bottom-4 left-4 right-4 glass-card p-4 rounded border border-gold-400/30 flex justify-between items-center">
-                            <div>
-                                <p class="text-xs uppercase tracking-wider text-gold-400 font-semibold">Featured Look</p>
-                                <p class="text-sm font-bold text-white font-cinzel">The Obsidian Tailored Tuxedo</p>
-                            </div>
-                            <span class="text-lg font-bold text-gold-300 font-serif">$1,450</span>
+                <!-- Job Card 2 -->
+                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Retail Leadership</span>
+                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Bengaluru / Mumbai</span>
                         </div>
-
-                        <!-- Brand Logo Lapel Accent Pin Floating Visual -->
-                        <div class="absolute top-6 right-6 bg-black/80 backdrop-blur-md p-3 rounded-full border border-gold-400/50 text-gold-400">
-                            <i class="fa-solid fa-gem text-xl"></i>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Luxury Store Sales Manager</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
+                            Manage flagship boutique operations, client relations, team coaching, and sales targets for luxury fashion collections.
+                        </p>
+                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
+                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
+                            <span class="text-lg font-bold text-gold-300 font-serif">₹50,000 - ₹95,000 / month</span>
                         </div>
                     </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Brand Highlights / Feature Grid (Matching 4 icons from image) -->
-    <section id="highlights" class="py-16 bg-obsidian border-y border-gold-400/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                
-                <!-- Feature 1: Crown / Premium Quality -->
-                <div class="p-6 rounded-lg glass-card border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 group">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl group-hover:scale-110 group-hover:bg-gold-400 group-hover:text-black transition-all">
-                        <i class="fa-solid fa-crown"></i>
-                    </div>
-                    <h3 class="font-cinzel text-base font-bold text-white tracking-wider uppercase mb-1">Premium Quality</h3>
-                    <p class="text-xs text-gray-400 font-light">Crafted from Italian wools & finest silks</p>
+                    <button onclick="openApplyModal('Luxury Store Sales Manager')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
+                        Apply Now
+                    </button>
                 </div>
 
-                <!-- Feature 2: Diamond / Stylish Designs -->
-                <div class="p-6 rounded-lg glass-card border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 group">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl group-hover:scale-110 group-hover:bg-gold-400 group-hover:text-black transition-all">
-                        <i class="fa-solid fa-gem"></i>
+                <!-- Job Card 3 -->
+                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Design & Styling</span>
+                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> New Delhi</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Fashion Designer & Apparel Stylist</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
+                            Create western luxury menswear/womenswear concepts, moodboards, and oversee wardrobe selection for photoshoots.
+                        </p>
+                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
+                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
+                            <span class="text-lg font-bold text-gold-300 font-serif">₹45,000 - ₹80,000 / month</span>
+                        </div>
                     </div>
-                    <h3 class="font-cinzel text-base font-bold text-white tracking-wider uppercase mb-1">Stylish Designs</h3>
-                    <p class="text-xs text-gray-400 font-light">Tailored perfection for bold presence</p>
+                    <button onclick="openApplyModal('Fashion Designer & Apparel Stylist')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
+                        Apply Now
+                    </button>
                 </div>
 
-                <!-- Feature 3: Star / Iconic Brand -->
-                <div class="p-6 rounded-lg glass-card border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 group">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl group-hover:scale-110 group-hover:bg-gold-400 group-hover:text-black transition-all">
-                        <i class="fa-solid fa-star"></i>
+                <!-- Job Card 4 -->
+                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Marketing & Media</span>
+                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Remote / Hybrid</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Digital Marketing & Social Lead</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
+                            Drive Instagram, YouTube, and digital campaigns, creator partnerships, and luxury brand storytelling in India.
+                        </p>
+                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
+                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
+                            <span class="text-lg font-bold text-gold-300 font-serif">₹40,000 - ₹75,000 / month</span>
+                        </div>
                     </div>
-                    <h3 class="font-cinzel text-base font-bold text-white tracking-wider uppercase mb-1">Iconic Brand</h3>
-                    <p class="text-xs text-gray-400 font-light">70+ years of worldwide prestige</p>
+                    <button onclick="openApplyModal('Digital Marketing & Social Lead')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
+                        Apply Now
+                    </button>
                 </div>
 
-                <!-- Feature 4: Shield Check / Trusted Worldwide -->
-                <div class="p-6 rounded-lg glass-card border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 group">
-                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl group-hover:scale-110 group-hover:bg-gold-400 group-hover:text-black transition-all">
-                        <i class="fa-solid fa-shield-halved"></i>
+                <!-- Job Card 5 -->
+                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Events & Hospitality</span>
+                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Goa / Mumbai</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Event Coordinator & Brand Host</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
+                            Coordinate luxury launch galas, VIP lounge guest management, press meets, and lifestyle experience events.
+                        </p>
+                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
+                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
+                            <span class="text-lg font-bold text-gold-300 font-serif">₹35,000 - ₹65,000 / month</span>
+                        </div>
                     </div>
-                    <h3 class="font-cinzel text-base font-bold text-white tracking-wider uppercase mb-1">Trusted Worldwide</h3>
-                    <p class="text-xs text-gray-400 font-light">Authenticated luxury & secure delivery</p>
+                    <button onclick="openApplyModal('Event Coordinator & Brand Host')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
+                        Apply Now
+                    </button>
                 </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Collections Showcase Section -->
-    <section id="collections" class="py-24 bg-onyx relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <p class="text-gold-400 font-semibold text-xs tracking-[0.3em] uppercase mb-2">Curated Elegance</p>
-                <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white mb-4">THE CURATED COLLECTIONS</h2>
-                <div class="w-24 h-0.5 bg-gradient-to-r from-transparent via-gold-400 to-transparent mx-auto"></div>
-            </div>
-
-            <!-- Category Filter Tabs -->
-            <div class="flex justify-center flex-wrap gap-2 sm:gap-4 mb-12">
-                <button onclick="filterCategory('all')" class="cat-btn active px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-widest transition-all border border-gold-400 bg-gold-400 text-black">
-                    All Products
-                </button>
-                <button onclick="filterCategory('fashion')" class="cat-btn px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-widest transition-all border border-gold-400/30 text-gray-300 hover:border-gold-400 hover:text-gold-400">
-                    Fashion Suits
-                </button>
-                <button onclick="filterCategory('lifestyle')" class="cat-btn px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-widest transition-all border border-gold-400/30 text-gray-300 hover:border-gold-400 hover:text-gold-400">
-                    Lifestyle & Timepieces
-                </button>
-                <button onclick="filterCategory('accessories')" class="cat-btn px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-widest transition-all border border-gold-400/30 text-gray-300 hover:border-gold-400 hover:text-gold-400">
-                    Accessories
-                </button>
-            </div>
-
-            <!-- Product Cards Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="product-grid">
-                
-                <!-- Product 1 -->
-                <div class="product-card fashion group bg-obsidian rounded-lg overflow-hidden border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 flex flex-col justify-between">
-                    <div class="relative overflow-hidden h-80">
-                        <span class="absolute top-3 left-3 z-10 bg-gold-400 text-black text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm">Signature</span>
-                        <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop" 
-                             alt="Onyx Executive Suit" 
-                             class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-3">
-                            <button onclick="addToCart('Onyx Executive Suit', 1250, 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800')" class="w-10 h-10 rounded-full bg-gold-400 text-black flex items-center justify-center hover:scale-110 transition-transform" title="Add to Cart">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                            <button onclick="quickView('Onyx Executive Suit', '$1,250', 'Italian Super 130s Wool 2-piece tailored tuxedo suit with satin lapels.', 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800')" class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center hover:scale-110 transition-transform" title="Quick View">
-                                <i class="fa-solid fa-eye"></i>
-                            </button>
+                <!-- Job Card 6 -->
+                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Retail Operations</span>
+                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> All Major Cities</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Luxury Fashion Sales Consultant</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
+                            Provide personalized styling assistance, wardrobe curation, and premium customer service at luxury outlets.
+                        </p>
+                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
+                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
+                            <span class="text-lg font-bold text-gold-300 font-serif">₹28,000 - ₹48,000 / month</span>
                         </div>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-gold-400 font-semibold tracking-widest uppercase">Fashion / Formal</p>
-                        <h3 class="font-cinzel text-lg font-bold text-white mt-1 group-hover:text-gold-300 transition-colors">Onyx Executive Suit</h3>
-                        <div class="flex items-center justify-between mt-3">
-                            <span class="text-xl font-bold text-white font-serif">$1,250</span>
-                            <div class="text-xs text-gold-400 flex gap-1">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 2 -->
-                <div class="product-card lifestyle group bg-obsidian rounded-lg overflow-hidden border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 flex flex-col justify-between">
-                    <div class="relative overflow-hidden h-80">
-                        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop" 
-                             alt="Royale Chronograph Gold Watch" 
-                             class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-3">
-                            <button onclick="addToCart('Royale Gold Chronograph', 890, 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800')" class="w-10 h-10 rounded-full bg-gold-400 text-black flex items-center justify-center hover:scale-110 transition-transform" title="Add to Cart">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                            <button onclick="quickView('Royale Gold Chronograph', '$890', '18K Gold PVD coated stainless steel watch with Swiss automatic movement.', 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800')" class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center hover:scale-110 transition-transform" title="Quick View">
-                                <i class="fa-solid fa-eye"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-gold-400 font-semibold tracking-widest uppercase">Lifestyle / Watches</p>
-                        <h3 class="font-cinzel text-lg font-bold text-white mt-1 group-hover:text-gold-300 transition-colors">Royale Gold Chronograph</h3>
-                        <div class="flex items-center justify-between mt-3">
-                            <span class="text-xl font-bold text-white font-serif">$890</span>
-                            <div class="text-xs text-gold-400 flex gap-1">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 3 -->
-                <div class="product-card accessories group bg-obsidian rounded-lg overflow-hidden border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 flex flex-col justify-between">
-                    <div class="relative overflow-hidden h-80">
-                        <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800&auto=format&fit=crop" 
-                             alt="Playboy Gold Aviator Sunglasses" 
-                             class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-3">
-                            <button onclick="addToCart('Playboy Black-Gold Aviators', 320, 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800')" class="w-10 h-10 rounded-full bg-gold-400 text-black flex items-center justify-center hover:scale-110 transition-transform" title="Add to Cart">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                            <button onclick="quickView('Playboy Black-Gold Aviators', '$320', 'Polarized dark lenses with 18k gold accents and subtle bunny logo branding.', 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800')" class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center hover:scale-110 transition-transform" title="Quick View">
-                                <i class="fa-solid fa-eye"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-gold-400 font-semibold tracking-widest uppercase">Accessories / Eyewear</p>
-                        <h3 class="font-cinzel text-lg font-bold text-white mt-1 group-hover:text-gold-300 transition-colors">Black-Gold Aviators</h3>
-                        <div class="flex items-center justify-between mt-3">
-                            <span class="text-xl font-bold text-white font-serif">$320</span>
-                            <div class="text-xs text-gold-400 flex gap-1">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 4 -->
-                <div class="product-card lifestyle group bg-obsidian rounded-lg overflow-hidden border border-gold-400/10 hover:border-gold-400/40 transition-all duration-300 flex flex-col justify-between">
-                    <div class="relative overflow-hidden h-80">
-                        <span class="absolute top-3 left-3 z-10 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-sm">Hot</span>
-                        <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800&auto=format&fit=crop" 
-                             alt="Playboy Black VIP Fragrance" 
-                             class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-3">
-                            <button onclick="addToCart('VIP Eau de Parfum (100ml)', 185, 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800')" class="w-10 h-10 rounded-full bg-gold-400 text-black flex items-center justify-center hover:scale-110 transition-transform" title="Add to Cart">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                            <button onclick="quickView('VIP Eau de Parfum (100ml)', '$185', 'Warm amber, black leather, and spicy cardamom luxury fragrance.', 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=800')" class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center hover:scale-110 transition-transform" title="Quick View">
-                                <i class="fa-solid fa-eye"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-gold-400 font-semibold tracking-widest uppercase">Lifestyle / Fragrance</p>
-                        <h3 class="font-cinzel text-lg font-bold text-white mt-1 group-hover:text-gold-300 transition-colors">VIP Eau de Parfum</h3>
-                        <div class="flex items-center justify-between mt-3">
-                            <span class="text-xl font-bold text-white font-serif">$185</span>
-                            <div class="text-xs text-gold-400 flex gap-1">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
+                    <button onclick="openApplyModal('Luxury Fashion Sales Consultant')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
+                        Apply Now
+                    </button>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <!-- Interactive Product Configurator Section -->
-    <section id="configurator" class="py-24 bg-obsidian border-t border-gold-400/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                
-                <!-- Left Details & Controls -->
-                <div class="lg:col-span-5 space-y-6">
-                    <p class="text-gold-400 text-xs font-semibold tracking-[0.3em] uppercase">Bespeak Studio</p>
-                    <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white">CUSTOMIZE YOUR SIGNATURE LOOK</h2>
-                    <p class="text-gray-400 text-sm leading-relaxed">
-                        Personalize the iconic Playboy Tuxedo blazer. Select your velvet/wool shade, gold motif accents, and lapel pin finish.
+    <section id="verification" class="py-16 bg-obsidian border-y border-gold-400/20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-panel p-8 rounded-2xl border border-gold-400/30 space-y-6 text-center">
+                <div class="w-16 h-16 rounded-full bg-red-950/80 border border-red-500 flex items-center justify-center text-red-400 text-3xl mx-auto">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h2 class="font-cinzel text-2xl sm:text-3xl font-bold text-white">OFFICIAL ANTI-FRAUD & CANDIDATE SAFETY ADVISORY</h2>
+                <div class="text-xs sm:text-sm text-gray-300 font-light space-y-3 leading-relaxed max-w-3xl mx-auto text-left bg-onyx/80 p-6 rounded-lg border border-white/10">
+                    <p class="flex items-start gap-2">
+                        <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
+                        <span><strong>Zero Registration Fees:</strong> Official Playboy India HR never requests payment for job registration, interviews, modeling portfolios, or training kits.</span>
                     </p>
-
-                    <!-- Color Selector -->
-                    <div class="space-y-3">
-                        <label class="text-xs uppercase font-bold tracking-wider text-gray-300 block">Jacket Color:</label>
-                        <div class="flex gap-4">
-                            <button onclick="setSuitColor('black', 'Midnight Onyx Black')" class="w-9 h-9 rounded-full bg-black border-2 border-gold-400 shadow-lg hover:scale-110 transition-transform active-color" title="Onyx Black"></button>
-                            <button onclick="setSuitColor('navy', 'Royal Navy Blue')" class="w-9 h-9 rounded-full bg-slate-900 border-2 border-transparent hover:border-gold-400 hover:scale-110 transition-transform" title="Navy Blue"></button>
-                            <button onclick="setSuitColor('burgundy', 'Imperial Burgundy')" class="w-9 h-9 rounded-full bg-red-950 border-2 border-transparent hover:border-gold-400 hover:scale-110 transition-transform" title="Burgundy"></button>
-                        </div>
-                        <p id="color-label" class="text-xs text-gold-400 font-medium">Selected: Midnight Onyx Black</p>
-                    </div>
-
-                    <!-- Lapel Style -->
-                    <div class="space-y-3">
-                        <label class="text-xs uppercase font-bold tracking-wider text-gray-300 block">Lapel Finish:</label>
-                        <div class="grid grid-cols-2 gap-3">
-                            <button onclick="setLapel('Peak Lapel')" class="py-2.5 px-4 text-xs font-semibold uppercase tracking-wider border border-gold-400/40 rounded text-gold-300 bg-gold-400/10">Peak Satin</button>
-                            <button onclick="setLapel('Shawl Collar')" class="py-2.5 px-4 text-xs font-semibold uppercase tracking-wider border border-white/20 rounded text-gray-400 hover:border-gold-400 hover:text-white">Shawl Velvet</button>
-                        </div>
-                    </div>
-
-                    <!-- Price & Add Button -->
-                    <div class="pt-4 border-t border-white/10 flex items-center justify-between">
-                        <div>
-                            <span class="text-xs text-gray-400 block uppercase">Bespoke Estimate</span>
-                            <span id="config-price" class="text-2xl font-bold font-serif text-gold-300">$1,650</span>
-                        </div>
-                        <button onclick="addConfiguredToCart()" class="px-6 py-3 bg-gold-400 text-black font-bold text-xs uppercase tracking-widest rounded hover:bg-gold-300 transition-all">
-                            Order Bespoke
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Right Live Preview Display -->
-                <div class="lg:col-span-7">
-                    <div class="relative rounded-2xl p-6 bg-onyx border border-gold-400/20 shadow-2xl flex flex-col items-center justify-center">
-                        <div id="suit-preview-container" class="relative w-full h-[450px] rounded-xl overflow-hidden flex items-center justify-center bg-cover bg-top transition-all duration-500"
-                            style="background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1000');">
-                            
-                            <!-- Dynamic Overlay Layer for color simulation -->
-                            <div id="color-overlay" class="absolute inset-0 bg-black/30 transition-colors duration-500"></div>
-
-                            <!-- Floating Crest Badge -->
-                            <div class="absolute top-6 left-6 glass-card px-4 py-2 rounded-full border border-gold-400/40 text-gold-400 text-xs font-bold tracking-widest flex items-center gap-2">
-                                <i class="fa-solid fa-crown"></i> HANDMADE IN MILAN
-                            </div>
-
-                            <div class="absolute bottom-6 right-6 glass-card p-3 rounded-lg border border-gold-400/30 text-right">
-                                <p id="config-lapel-tag" class="text-xs font-bold text-white uppercase font-cinzel">Peak Satin Lapel</p>
-                                <p class="text-[10px] text-gold-400">Playboy Crest Engraved Buttons</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Legacy & Heritage Section -->
-    <section id="legacy" class="py-24 bg-onyx relative overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                
-                <div class="relative">
-                    <div class="absolute -inset-2 bg-gold-400/10 rounded-2xl blur-xl"></div>
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop" 
-                         alt="Playboy Heritage Luxury" 
-                         class="relative rounded-lg border border-gold-400/30 w-full h-[480px] object-cover grayscale hover:grayscale-0 transition-all duration-700">
-                    <div class="absolute bottom-6 left-6 glass-card p-6 rounded-lg max-w-xs border border-gold-400/30">
-                        <p class="font-cinzel text-3xl font-bold text-gold-400">70+</p>
-                        <p class="text-xs text-gray-300 font-medium tracking-wider uppercase mt-1">Years of Cultivating High Fashion & Unapologetic Lifestyle</p>
-                    </div>
-                </div>
-
-                <div class="space-y-6">
-                    <p class="text-gold-400 font-semibold text-xs tracking-[0.3em] uppercase">The Legend Continues</p>
-                    <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white leading-tight">AN EMBLEM OF REBELLION & REFINEMENT</h2>
-                    <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
-                        Since 1953, Playboy has stood for sophistication, freedom, and distinction. Our menswear and lifestyle collections embody confidence and modern charm for leaders who set their own standard.
+                    <p class="flex items-start gap-2">
+                        <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
+                        <span><strong>Official Channels Only:</strong> Always verify communications through our official website domain or verified Telegram HR handle.</span>
                     </p>
-                    <ul class="space-y-3 pt-2 text-sm text-gray-300">
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-gold-400"></i> Artisanal Craftsmanship & Italian Fabrics
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-gold-400"></i> Exclusive Limited-Edition Drops
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-gold-400"></i> Global Concierge Service for VIP Members
-                        </li>
-                    </ul>
-                    <div class="pt-4">
-                        <a href="#club" class="inline-block px-8 py-3.5 border border-gold-400 text-gold-300 font-bold text-xs tracking-widest uppercase rounded hover:bg-gold-400 hover:text-black transition-all">
-                            Discover The Legend
-                        </a>
-                    </div>
+                    <p class="flex items-start gap-2">
+                        <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
+                        <span><strong>Legal & Professional Compliance:</strong> All recruitments strictly comply with Indian Employment Laws and standard corporate hiring practices.</span>
+                    </p>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- VIP Playboy Club Banner Section -->
-    <section id="club" class="py-20 bg-gradient-to-r from-obsidian via-charcoal to-obsidian border-y border-gold-400/20 relative">
-        <div class="max-w-5xl mx-auto px-4 text-center space-y-6">
-            <div class="inline-block p-3 rounded-full bg-gold-400/10 border border-gold-400/30 mb-2">
-                <i class="fa-solid fa-gem text-gold-400 text-2xl"></i>
+    <section id="perks" class="py-20 bg-onyx">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <p class="text-gold-400 text-xs font-bold uppercase tracking-[0.3em] mb-2">Prestige & Benefits</p>
+                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white">WHY JOIN PLAYBOY INDIA</h2>
             </div>
-            <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white">JOIN THE PLAYBOY PRIVATE CLUB</h2>
-            <p class="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto font-light">
-                Receive invitation-only access to private runway collections, bespoke styling consultations, and members-only events worldwide.
-            </p>
-            
-            <form onsubmit="handleSubscribe(event)" class="max-w-md mx-auto flex flex-col sm:flex-row gap-3 pt-4">
-                <input type="email" required placeholder="Enter your email address" 
-                       class="flex-1 px-5 py-3.5 rounded bg-onyx border border-gold-400/30 text-white placeholder-gray-500 focus:outline-none focus:border-gold-400 text-sm">
-                <button type="submit" class="px-8 py-3.5 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                    Request VIP Access
-                </button>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
+                    <i class="fa-solid fa-plane text-gold-400 text-3xl mb-4"></i>
+                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Travel Allowances</h3>
+                    <p class="text-xs text-gray-400 font-light">National & international campaign shoot travel fully covered.</p>
+                </div>
+                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
+                    <i class="fa-solid fa-award text-gold-400 text-3xl mb-4"></i>
+                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Global Exposure</h3>
+                    <p class="text-xs text-gray-400 font-light">Work with world-class stylists, directors, and luxury retail leaders.</p>
+                </div>
+                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
+                    <i class="fa-solid fa-shirt text-gold-400 text-3xl mb-4"></i>
+                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Apparel Wardrobe</h3>
+                    <p class="text-xs text-gray-400 font-light">Exclusive staff discounts and seasonal luxury apparel allowances.</p>
+                </div>
+                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
+                    <i class="fa-solid fa-handshake text-gold-400 text-3xl mb-4"></i>
+                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Performance Bonus</h3>
+                    <p class="text-xs text-gray-400 font-light">Lucrative monthly performance incentives and campaign bonuses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="apply-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-4">
+        <div class="bg-obsidian border border-gold-400/30 rounded-2xl max-w-xl w-full p-6 sm:p-8 relative overflow-hidden glass-panel max-h-[90vh] overflow-y-auto">
+            <button onclick="closeApplyModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <i class="fa-solid fa-xmark text-2xl"></i>
+            </button>
+
+            <div class="text-center mb-6">
+                <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Playboy India Careers</span>
+                <h3 id="modal-role-title" class="font-cinzel text-2xl font-bold text-white mt-1">Candidate Application</h3>
+                <p class="text-xs text-gray-400 font-light mt-1">Submit your details for official HR evaluation.</p>
+            </div>
+
+            <form onsubmit="submitApplication(event)" class="space-y-4 text-left">
+                <input type="hidden" id="selected-role" value="General Application">
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Full Name *</label>
+                    <input type="text" required placeholder="Enter your official full name" 
+                           class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Phone Number (WhatsApp) *</label>
+                        <input type="tel" required placeholder="+91 98765 43210" 
+                               class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Email Address *</label>
+                        <input type="email" required placeholder="name@domain.com" 
+                               class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Preferred City *</label>
+                        <select required class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Delhi NCR">Delhi NCR</option>
+                            <option value="Bengaluru">Bengaluru</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Other">Other Major City</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Experience Level *</label>
+                        <select required class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
+                            <option value="Fresher">Fresher / Beginner</option>
+                            <option value="1-3 Years">1 - 3 Years Experience</option>
+                            <option value="3+ Years">3+ Years Experience</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Resume / Instagram Portfolio Link</label>
+                    <input type="url" placeholder="https://instagram.com/yourprofile or portfolio link" 
+                           class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Brief Introduction</label>
+                    <textarea rows="3" placeholder="Tell us about your background and why you wish to join..." 
+                              class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400"></textarea>
+                </div>
+
+                <div class="pt-2">
+                    <button type="submit" class="w-full py-3.5 bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all shadow-lg">
+                        Submit Application
+                    </button>
+                </div>
             </form>
-            <p class="text-[10px] text-gray-500 uppercase tracking-widest">By joining, you agree to our Private Luxury Terms & Discretion Policy.</p>
         </div>
-    </section>
+    </div>
 
-    <!-- Footer -->
-    <footer class="bg-onyx text-gray-400 pt-16 pb-12 border-t border-gold-400/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
-                
-                <!-- Column 1: Brand Info -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <svg class="w-7 h-9 text-gold-400 fill-current" viewBox="0 0 100 120">
-                            <path d="M50 120 C 45 110, 35 105, 30 90 C 25 75, 35 65, 45 60 C 30 58, 10 40, 15 10 C 20 25, 35 35, 48 45 C 45 25, 40 0, 55 0 C 60 20, 55 35, 52 48 C 65 35, 80 25, 85 10 C 90 40, 70 58, 55 60 C 65 65, 75 75, 70 90 C 65 105, 55 110, 50 120 Z"/>
-                        </svg>
-                        <span class="font-cinzel text-xl font-bold text-white tracking-widest">PLAYBOY</span>
-                    </div>
-                    <p class="text-xs leading-relaxed font-light">
-                        The ultimate symbol of luxury, freedom, and timeless style. Crafted for modern gentlemen of ambition.
-                    </p>
-                    <div class="flex space-x-4 text-gray-400 text-lg">
-                        <a href="#" class="hover:text-gold-400 transition-colors"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="hover:text-gold-400 transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="#" class="hover:text-gold-400 transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="hover:text-gold-400 transition-colors"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
+    <a href="https://t.me/" target="_blank" 
+       class="fixed bottom-6 right-6 z-40 bg-sky-500 hover:bg-sky-400 text-white font-bold px-5 py-3.5 rounded-full shadow-2xl flex items-center gap-3 border border-white/20 transition-all transform hover:scale-105">
+        <i class="fa-brands fa-telegram text-2xl"></i>
+        <span class="text-xs uppercase tracking-wider hidden sm:inline-block">Telegram Recruitment VIP</span>
+    </a>
+
+    <footer class="bg-onyx border-t border-gold-400/10 py-12 text-gray-400 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-white/10 pb-8">
+                <div class="flex items-center gap-3">
+                    <span class="font-cinzel text-lg font-bold text-white tracking-widest">PLAYBOY INDIA</span>
+                    <span class="text-[10px] text-gold-400 border border-gold-400/30 px-2 py-0.5 rounded">OFFICIAL PORTAL</span>
                 </div>
-
-                <!-- Column 2: Collections -->
-                <div>
-                    <h4 class="font-cinzel text-sm font-bold text-white tracking-widest uppercase mb-4">Collections</h4>
-                    <ul class="space-y-2 text-xs">
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Haute Couture Suits</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Luxury Footwear</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Swiss Timepieces</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Signature Eyewear</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">VIP Leather Goods</a></li>
-                    </ul>
+                <div class="flex space-x-6">
+                    <a href="#positions" class="hover:text-gold-400">Openings</a>
+                    <a href="#verification" class="hover:text-gold-400">Anti-Fraud</a>
+                    <a href="#telegram-vip" class="hover:text-gold-400">Telegram Channel</a>
                 </div>
-
-                <!-- Column 3: World of Playboy -->
-                <div>
-                    <h4 class="font-cinzel text-sm font-bold text-white tracking-widest uppercase mb-4">Client Care</h4>
-                    <ul class="space-y-2 text-xs">
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Bespoke Fitting Service</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Global VIP Delivery</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Certificate of Authenticity</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Private Concierge</a></li>
-                        <li><a href="#" class="hover:text-gold-400 transition-colors">Returns & Exchange</a></li>
-                    </ul>
-                </div>
-
-                <!-- Column 4: Contact & Flagship -->
-                <div>
-                    <h4 class="font-cinzel text-sm font-bold text-white tracking-widest uppercase mb-4">Flagship Stores</h4>
-                    <p class="text-xs text-gray-400 leading-relaxed mb-2">
-                        <strong class="text-white">Milan:</strong> Via Montenapoleone 8, Italy
-                    </p>
-                    <p class="text-xs text-gray-400 leading-relaxed mb-4">
-                        <strong class="text-white">New York:</strong> 5th Avenue, NY 10022
-                    </p>
-                    <div class="pt-2">
-                        <span class="inline-block text-[10px] uppercase tracking-widest border border-gold-400/40 text-gold-300 px-3 py-1 rounded">
-                            <i class="fa-solid fa-globe mr-1"></i> Global USD ($)
-                        </span>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- Bottom Copyright -->
-            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-[11px] text-gray-500">
+            <p class="text-gray-500 text-[11px] leading-relaxed">
+                Official Notice: Playboy Enterprises and its authorized Indian partners adhere to standard employment norms. All modeling shoots, events, store operations, and brand ambassador programs operate under strict compliance with professional legal guidelines.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-between items-center text-[10px] text-gray-600 pt-2">
                 <p>© 2026 PLAYBOY ENTERPRISES. ALL RIGHTS RESERVED.</p>
-                <div class="flex space-x-6 mt-4 sm:mt-0">
-                    <a href="#" class="hover:text-gold-400 transition-colors">PRIVACY POLICY</a>
-                    <a href="#" class="hover:text-gold-400 transition-colors">TERMS OF SERVICE</a>
-                    <a href="#" class="hover:text-gold-400 transition-colors">AUTHENTICITY GUARANTEE</a>
-                </div>
+                <p>Designed for Official India Career Operations</p>
             </div>
         </div>
     </footer>
 
-    <!-- Shopping Cart Modal Sidebar -->
-    <div id="cart-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden transition-opacity">
-        <div class="fixed right-0 top-0 h-full w-full max-w-md bg-obsidian border-l border-gold-400/20 p-6 flex flex-col justify-between shadow-2xl">
-            <div>
-                <div class="flex items-center justify-between border-b border-white/10 pb-4">
-                    <div class="flex items-center gap-2">
-                        <i class="fa-solid fa-bag-shopping text-gold-400"></i>
-                        <h3 class="font-cinzel text-lg font-bold text-white uppercase">Your Bag</h3>
-                    </div>
-                    <button onclick="closeCart()" class="text-gray-400 hover:text-white"><i class="fa-solid fa-xmark text-xl"></i></button>
-                </div>
-                <!-- Cart Items Container -->
-                <div id="cart-items" class="py-6 space-y-4 max-h-[60vh] overflow-y-auto">
-                    <p id="empty-cart-msg" class="text-center text-gray-500 text-sm py-12">Your shopping bag is empty.</p>
-                </div>
-            </div>
-
-            <!-- Cart Footer -->
-            <div class="border-t border-white/10 pt-4 space-y-4">
-                <div class="flex justify-between items-center">
-                    <span class="text-xs uppercase tracking-wider text-gray-400">Subtotal</span>
-                    <span id="cart-subtotal" class="text-xl font-bold font-serif text-gold-300">$0</span>
-                </div>
-                <button onclick="checkout()" class="w-full py-3.5 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                    Proceed To VIP Checkout
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Quick View Modal -->
-    <div id="quickview-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
-        <div class="bg-obsidian border border-gold-400/30 rounded-xl max-w-2xl w-full p-6 relative overflow-hidden glass-card">
-            <button onclick="closeQuickView()" class="absolute top-4 right-4 text-gray-400 hover:text-white z-10">
-                <i class="fa-solid fa-xmark text-xl"></i>
-            </button>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                <img id="qv-img" src="" alt="Product Quick View" class="w-full h-72 object-cover rounded-lg border border-gold-400/20">
-                <div class="space-y-4">
-                    <p class="text-gold-400 text-xs font-semibold uppercase tracking-widest">Playboy Luxury Collection</p>
-                    <h3 id="qv-title" class="font-cinzel text-2xl font-bold text-white">Product Title</h3>
-                    <p id="qv-price" class="text-xl font-serif text-gold-300 font-bold">$0</p>
-                    <p id="qv-desc" class="text-xs text-gray-300 leading-relaxed font-light">Description...</p>
-                    <button id="qv-add-btn" class="w-full py-3 bg-gold-400 text-black font-bold text-xs uppercase tracking-widest rounded hover:bg-gold-300 transition-all">
-                        Add To Bag
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Video Modal -->
-    <div id="video-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex items-center justify-center p-4">
-        <div class="relative w-full max-w-4xl bg-black rounded-lg overflow-hidden border border-gold-400/30">
-            <button onclick="closeVideoModal()" class="absolute top-3 right-3 text-white bg-black/50 p-2 rounded-full z-10 hover:text-gold-400">
-                <i class="fa-solid fa-xmark text-xl"></i>
-            </button>
-            <div class="aspect-video flex items-center justify-center bg-black">
-                <p class="text-gold-400 font-cinzel text-lg uppercase tracking-widest animate-pulse">
-                    <i class="fa-solid fa-film mr-2"></i> Playboy Autumn Campaign Showcase Playing...
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Notification Toast -->
-    <div id="toast" class="fixed bottom-6 right-6 z-50 bg-gold-400 text-black font-bold px-6 py-3 rounded-lg shadow-xl translate-y-24 opacity-0 transition-all duration-300 flex items-center gap-3 border border-black/20">
-        <i class="fa-solid fa-circle-check"></i>
-        <span id="toast-msg" class="text-xs uppercase tracking-wider">Item added to your bag</span>
-    </div>
-
-    <!-- Application JavaScript Logic -->
     <script>
-        // Shopping Cart State
-        let cart = [];
-
-        // Mobile Menu Toggle
-        function toggleMobileMenu() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
+        function openApplyModal(roleName) {
+            document.getElementById('selected-role').value = roleName;
+            document.getElementById('modal-role-title').innerText = roleName;
+            document.getElementById('apply-modal').classList.remove('hidden');
         }
 
-        // Search Bar Placeholder Toggle
-        function toggleSearch() {
-            showToast("Search Engine Initialized. Type your query.");
+        function closeApplyModal() {
+            document.getElementById('apply-modal').classList.add('hidden');
         }
 
-        // Cart Modal Display
-        function openCart() {
-            document.getElementById('cart-modal').classList.remove('hidden');
-        }
-        function closeCart() {
-            document.getElementById('cart-modal').classList.add('hidden');
-        }
-
-        // Add to Cart Logic
-        function addToCart(title, price, img) {
-            const existing = cart.find(item => item.title === title);
-            if (existing) {
-                existing.qty += 1;
-            } else {
-                cart.push({ title, price, img, qty: 1 });
-            }
-            updateCartUI();
-            showToast(`${title} added to bag!`);
-        }
-
-        function removeFromCart(title) {
-            cart = cart.filter(item => item.title !== title);
-            updateCartUI();
-        }
-
-        function updateCartUI() {
-            const container = document.getElementById('cart-items');
-            const countBadge = document.getElementById('cart-count');
-            const subtotalEl = document.getElementById('cart-subtotal');
-
-            const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
-            const totalCost = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
-
-            countBadge.innerText = totalQty;
-            subtotalEl.innerText = '$' + totalCost.toLocaleString();
-
-            if (cart.length === 0) {
-                container.innerHTML = `<p class="text-center text-gray-500 text-sm py-12">Your shopping bag is empty.</p>`;
-                return;
-            }
-
-            container.innerHTML = cart.map(item => `
-                <div class="flex items-center justify-between bg-onyx p-3 rounded border border-gold-400/20">
-                    <div class="flex items-center gap-3">
-                        <img src="${item.img}" class="w-12 h-12 object-cover rounded">
-                        <div>
-                            <h4 class="text-xs font-bold text-white font-cinzel">${item.title}</h4>
-                            <p class="text-xs text-gold-400 font-serif">$${item.price} x ${item.qty}</p>
-                        </div>
-                    </div>
-                    <button onclick="removeFromCart('${item.title}')" class="text-gray-500 hover:text-red-400 text-xs p-1">
-                        <i class="fa-solid fa-trash"></i>
-                    </button>
-                </div>
-            `).join('');
-        }
-
-        // Quick View Modal Handlers
-        function quickView(title, price, desc, img) {
-            document.getElementById('qv-title').innerText = title;
-            document.getElementById('qv-price').innerText = price;
-            document.getElementById('qv-desc').innerText = desc;
-            document.getElementById('qv-img').src = img;
-            
-            const numericPrice = parseInt(price.replace(/[^0-9]/g, ''));
-            document.getElementById('qv-add-btn').onclick = function() {
-                addToCart(title, numericPrice, img);
-                closeQuickView();
-            };
-
-            document.getElementById('quickview-modal').classList.remove('hidden');
-        }
-
-        function closeQuickView() {
-            document.getElementById('quickview-modal').classList.add('hidden');
-        }
-
-        // Filter Category Logic
-        function filterCategory(category) {
-            const cards = document.querySelectorAll('.product-card');
-            const buttons = document.querySelectorAll('.cat-btn');
-
-            buttons.forEach(btn => {
-                btn.classList.remove('bg-gold-400', 'text-black', 'active');
-                btn.classList.add('text-gray-300');
-            });
-
-            event.currentTarget.classList.add('bg-gold-400', 'text-black', 'active');
-
-            cards.forEach(card => {
-                if (category === 'all' || card.classList.contains(category)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-
-        // Customizer Configurator Logic
-        let selectedColor = 'black';
-        let selectedLapel = 'Peak Satin';
-
-        function setSuitColor(colorKey, colorName) {
-            const overlay = document.getElementById('color-overlay');
-            const label = document.getElementById('color-label');
-            selectedColor = colorKey;
-
-            if (colorKey === 'black') {
-                overlay.className = "absolute inset-0 bg-black/30 transition-colors duration-500";
-            } else if (colorKey === 'navy') {
-                overlay.className = "absolute inset-0 bg-blue-950/40 transition-colors duration-500";
-            } else if (colorKey === 'burgundy') {
-                overlay.className = "absolute inset-0 bg-red-950/40 transition-colors duration-500";
-            }
-
-            label.innerText = 'Selected: ' + colorName;
-        }
-
-        function setLapel(lapelStyle) {
-            selectedLapel = lapelStyle;
-            document.getElementById('config-lapel-tag').innerText = lapelStyle;
-        }
-
-        function addConfiguredToCart() {
-            const title = `Bespoke Suit (${selectedColor.toUpperCase()} - ${selectedLapel})`;
-            addToCart(title, 1650, 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800');
-        }
-
-        // Video Campaign Modal
-        function playVideoModal() {
-            document.getElementById('video-modal').classList.remove('hidden');
-        }
-        function closeVideoModal() {
-            document.getElementById('video-modal').classList.add('hidden');
-        }
-
-        // Newsletter Subscription Handler
-        function handleSubscribe(e) {
-            e.preventDefault();
-            showToast("VIP Application Submitted. Welcome to the Club.");
-            e.target.reset();
-        }
-
-        // Toast Notification System
-        function showToast(message) {
-            const toast = document.getElementById('toast');
-            document.getElementById('toast-msg').innerText = message;
-            toast.classList.remove('translate-y-24', 'opacity-0');
-            
-            setTimeout(() => {
-                toast.classList.add('translate-y-24', 'opacity-0');
-            }, 3000);
-        }
-
-        // Checkout Placeholder
-        function checkout() {
-            if (cart.length === 0) {
-                showToast("Your shopping bag is empty!");
-                return;
-            }
-            alert("Redirecting to Playboy Secure VIP Checkout...");
-            cart = [];
-            updateCartUI();
-            closeCart();
+        function submitApplication(event) {
+            event.preventDefault();
+            alert("Thank you! Your official application has been submitted to Playboy India HR. Our recruitment team will review your profile and contact you.");
+            closeApplyModal();
+            event.target.reset();
         }
     </script>
 </body>
