@@ -1,524 +1,150 @@
 <!DOCTYPE html>
-<html lang="en" class="dark scroll-smooth">
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playboy India — Official Careers & Modeling Recruitment</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        gold: {
-                            100: '#FFF6D6',
-                            300: '#E6C65A',
-                            400: '#D4AF37',
-                            500: '#B8860B',
-                            600: '#8C6200',
-                        },
-                        onyx: '#080808',
-                        obsidian: '#121212',
-                        charcoal: '#1A1A1A'
-                    },
-                    fontFamily: {
-                        cinzel: ['Cinzel', 'serif'],
-                        serif: ['Playfair Display', 'serif'],
-                        sans: ['Montserrat', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <title>Join Our Telegram Community</title>
     <style>
-        .gold-gradient-text {
-            background: linear-gradient(135deg, #FFF6D6 0%, #D4AF37 50%, #8C6200 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
-        .gold-border-glow {
-            box-shadow: 0 0 20px rgba(212, 175, 55, 0.18);
+
+        body {
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
-        .glass-panel {
-            background: rgba(18, 18, 18, 0.85);
-            backdrop-filter: blur(16px);
-            border: 1px solid rgba(212, 175, 55, 0.2);
+
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 420px;
+            border-radius: 32px;
+            padding: 40px 24px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        ::-webkit-scrollbar {
-            width: 8px;
+
+        .profile-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            padding: 4px;
+            border: 2px solid #229ED9;
+            margin-bottom: 24px;
+            overflow: hidden;
         }
-        ::-webkit-scrollbar-track {
-            background: #080808;
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
         }
-        ::-webkit-scrollbar-thumb {
-            background: #282828;
-            border-radius: 4px;
+
+        .badge {
+            background-color: #e8f5fe;
+            color: #1d9bf0;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 8px 18px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            display: inline-block;
         }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #D4AF37;
+
+        .title {
+            color: #0f1419;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .description {
+            color: #536471;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 32px;
+            padding: 0 10px;
+        }
+
+        .btn-telegram {
+            background-color: #20a0e1;
+            color: #ffffff;
+            text-decoration: none;
+            width: 100%;
+            padding: 18px 24px;
+            border-radius: 16px;
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 8px 20px rgba(32, 160, 225, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .btn-telegram:hover {
+            background-color: #1b8dca;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(32, 160, 225, 0.4);
+        }
+
+        .btn-telegram:active {
+            transform: translateY(0);
+        }
+
+        .footer-text {
+            color: #8b98a5;
+            font-size: 14px;
+            margin-top: 24px;
         }
     </style>
 </head>
-<body class="bg-onyx text-gray-200 font-sans antialiased selection:bg-gold-400 selection:text-black overflow-x-hidden">
+<body>
 
-    <div class="bg-gradient-to-r from-red-950 via-red-900 to-red-950 border-b border-red-500/40 text-red-100 text-[11px] font-semibold py-2 px-4 text-center tracking-wider uppercase flex items-center justify-center gap-2">
-        <i class="fa-solid fa-triangle-exclamation text-yellow-400"></i>
-        <span>Official Verification Notice: Playboy India Never Charges Application or Interview Fees. Beware of Fraudsters.</span>
+    <div class="card">
+        <!-- Profile Image -->
+        <div class="profile-container">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400" alt="Profile" class="profile-img">
+        </div>
+
+        <!-- Tag / Badge -->
+        <div class="badge">
+            TELEGRAM COMMUNITY
+        </div>
+
+        <!-- Title -->
+        <h1 class="title">Join Our Telegram</h1>
+
+        <!-- Subtitle / Description -->
+        <p class="description">
+            Join our Telegram channel/group and stay connected. Tap the button below to join now.
+        </p>
+
+        <!-- Telegram Button (Aap yahan apna link change kar sakte hain) -->
+        <a href="https://t.me/your_channel_name" target="_blank" class="btn-telegram">
+            🚀 Join Telegram
+        </a>
+
+        <!-- Footer Caption -->
+        <p class="footer-text">
+            Free to join • Click the button to continue
+        </p>
     </div>
 
-    <nav class="sticky top-0 z-40 bg-onyx/95 backdrop-blur-md border-b border-gold-400/20 py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-3">
-                <svg class="w-8 h-10 text-gold-400 fill-current" viewBox="0 0 100 120">
-                    <path d="M50 120 C 45 110, 35 105, 30 90 C 25 75, 35 65, 45 60 C 30 58, 10 40, 15 10 C 20 25, 35 35, 48 45 C 45 25, 40 0, 55 0 C 60 20, 55 35, 52 48 C 65 35, 80 25, 85 10 C 90 40, 70 58, 55 60 C 65 65, 75 75, 70 90 C 65 105, 55 110, 50 120 Z"/>
-                    <circle cx="62" cy="72" r="3.5" fill="#080808"/>
-                    <path d="M42 98 L50 94 L58 98 L50 102 Z" fill="#D4AF37"/>
-                </svg>
-                <div class="flex flex-col">
-                    <span class="font-cinzel text-xl font-black tracking-widest text-white leading-none">PLAYBOY <span class="text-gold-400 text-xs">INDIA</span></span>
-                    <span class="text-[8px] tracking-[0.3em] text-gold-400 uppercase font-medium">Careers & Talent Portal</span>
-                </div>
-            </a>
-
-            <div class="hidden md:flex items-center space-x-8 text-xs font-semibold uppercase tracking-widest text-gray-300">
-                <a href="#positions" class="hover:text-gold-400 transition-colors">Openings</a>
-                <a href="#perks" class="hover:text-gold-400 transition-colors">Benefits</a>
-                <a href="#verification" class="hover:text-gold-400 transition-colors">Fraud Shield</a>
-                <a href="#telegram-vip" class="hover:text-gold-400 transition-colors flex items-center gap-1.5 text-sky-400">
-                    <i class="fa-brands fa-telegram text-sm"></i> Telegram VIP
-                </a>
-            </div>
-
-            <div class="flex items-center gap-3">
-                <a href="https://t.me/" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider rounded transition-all">
-                    <i class="fa-brands fa-telegram"></i> Fast Apply
-                </a>
-                <button onclick="openApplyModal('General Candidate')" class="px-5 py-2.5 bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all shadow-md">
-                    Apply Now
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <section class="relative pt-16 pb-24 overflow-hidden bg-onyx">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.15),transparent_70%)]"></div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
-            <div class="lg:col-span-7 space-y-6">
-                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-gold-400/30 bg-gold-400/10 text-gold-300 text-xs font-bold uppercase tracking-widest">
-                    <i class="fa-solid fa-circle-check text-gold-400"></i>
-                    Official Recruitment Drive 2026-2027
-                </div>
-
-                <h1 class="font-cinzel text-4xl sm:text-6xl font-bold text-white leading-tight">
-                    BUILD YOUR CAREER WITH <br>
-                    <span class="gold-gradient-text">AN ICONIC BRAND</span>
-                </h1>
-
-                <p class="text-gray-300 text-sm sm:text-base font-light leading-relaxed max-w-xl">
-                    Join Playboy India's official team in luxury fashion, modeling, store management, and digital marketing. Work with high-fashion events, premium retail stores, and national brand campaigns.
-                </p>
-
-                <!-- Salary Highlight Pills -->
-                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 py-2">
-                    <div class="p-3 rounded bg-obsidian border border-gold-400/20">
-                        <span class="text-[10px] uppercase text-gray-400 block font-semibold">Model / Ambassador</span>
-                        <span class="text-sm sm:text-base font-bold text-gold-300 font-serif">₹85,000 - ₹2,50,000</span>
-                        <span class="text-[9px] text-gray-500 block">/ Campaign Shoot</span>
-                    </div>
-                    <div class="p-3 rounded bg-obsidian border border-gold-400/20">
-                        <span class="text-[10px] uppercase text-gray-400 block font-semibold">Store Manager</span>
-                        <span class="text-sm sm:text-base font-bold text-gold-300 font-serif">₹50,000 - ₹95,000</span>
-                        <span class="text-[9px] text-gray-500 block">/ Month</span>
-                    </div>
-                    <div class="p-3 rounded bg-obsidian border border-gold-400/20 col-span-2 sm:col-span-1">
-                        <span class="text-[10px] uppercase text-gray-400 block font-semibold">Brand Stylist</span>
-                        <span class="text-sm sm:text-base font-bold text-gold-300 font-serif">₹45,000 - ₹80,000</span>
-                        <span class="text-[9px] text-gray-500 block">/ Month</span>
-                    </div>
-                </div>
-
-                <div class="flex flex-wrap gap-4 pt-2">
-                    <a href="#positions" class="px-8 py-4 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs tracking-widest uppercase rounded hover:brightness-110 transition-all shadow-lg">
-                        Explore Openings <i class="fa-solid fa-arrow-right ml-2"></i>
-                    </a>
-                    <a href="https://t.me/" target="_blank" class="px-8 py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs tracking-widest uppercase rounded transition-all flex items-center gap-2">
-                        <i class="fa-brands fa-telegram text-base"></i> Telegram Hiring Channel
-                    </a>
-                </div>
-            </div>
-
-            <!-- Hero Image Display -->
-            <div class="lg:col-span-5">
-                <div class="relative rounded-2xl p-1 bg-gradient-to-b from-gold-400/40 via-gold-400/10 to-transparent">
-                    <div class="relative rounded-xl overflow-hidden bg-obsidian border border-gold-400/20">
-                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop" 
-                             alt="Playboy India Fashion Model" 
-                             class="w-full h-[480px] object-cover object-center">
-                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-black via-black/80 to-transparent">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <span class="text-xs text-gold-400 font-bold uppercase tracking-widest">Model Casting 2026</span>
-                                    <h3 class="font-cinzel text-lg font-bold text-white">High Fashion Brand Ambassador</h3>
-                                </div>
-                                <span class="px-3 py-1 bg-gold-400 text-black font-bold text-[10px] uppercase rounded">Mumbai & Delhi</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="telegram-vip" class="py-12 bg-gradient-to-r from-sky-950 via-obsidian to-sky-950 border-y border-sky-500/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
-            <div class="flex items-center gap-4">
-                <div class="w-14 h-14 rounded-full bg-sky-500/20 border border-sky-400 flex items-center justify-center text-sky-400 text-2xl shrink-0">
-                    <i class="fa-brands fa-telegram"></i>
-                </div>
-                <div>
-                    <h3 class="font-cinzel text-xl font-bold text-white">Join Official Telegram Recruitment Channel</h3>
-                    <p class="text-xs text-gray-300 font-light mt-0.5">Get direct casting call updates, interview schedules, and instant response from Playboy HR.</p>
-                </div>
-            </div>
-            <a href="https://t.me/" target="_blank" class="px-8 py-3.5 bg-sky-500 hover:bg-sky-400 text-white font-bold text-xs uppercase tracking-widest rounded flex items-center gap-2 transition-all shadow-lg shadow-sky-500/20 whitespace-nowrap">
-                <i class="fa-brands fa-telegram text-base"></i> Join Telegram VIP Channel
-            </a>
-        </div>
-    </section>
-
-    <section id="positions" class="py-20 bg-onyx">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-2xl mx-auto mb-14">
-                <p class="text-gold-400 text-xs font-bold uppercase tracking-[0.3em] mb-2">Verified Opportunities</p>
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white">CURRENT OPEN POSITIONS</h2>
-                <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-gold-400 to-transparent mx-auto mt-4"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
-                <!-- Job Card 1 -->
-                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Model / Ambassador</span>
-                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Mumbai / Delhi</span>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Fashion Model & Brand Ambassador</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
-                            Runway shows, luxury apparel photoshoots, brand launch events, and magazine features across India.
-                        </p>
-                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
-                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
-                            <span class="text-lg font-bold text-gold-300 font-serif">₹85,000 - ₹2,50,000 / shoot</span>
-                        </div>
-                    </div>
-                    <button onclick="openApplyModal('Fashion Model & Brand Ambassador')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                        Apply For Casting
-                    </button>
-                </div>
-
-                <!-- Job Card 2 -->
-                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Retail Leadership</span>
-                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Bengaluru / Mumbai</span>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Luxury Store Sales Manager</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
-                            Manage flagship boutique operations, client relations, team coaching, and sales targets for luxury fashion collections.
-                        </p>
-                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
-                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
-                            <span class="text-lg font-bold text-gold-300 font-serif">₹50,000 - ₹95,000 / month</span>
-                        </div>
-                    </div>
-                    <button onclick="openApplyModal('Luxury Store Sales Manager')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                        Apply Now
-                    </button>
-                </div>
-
-                <!-- Job Card 3 -->
-                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Design & Styling</span>
-                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> New Delhi</span>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Fashion Designer & Apparel Stylist</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
-                            Create western luxury menswear/womenswear concepts, moodboards, and oversee wardrobe selection for photoshoots.
-                        </p>
-                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
-                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
-                            <span class="text-lg font-bold text-gold-300 font-serif">₹45,000 - ₹80,000 / month</span>
-                        </div>
-                    </div>
-                    <button onclick="openApplyModal('Fashion Designer & Apparel Stylist')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                        Apply Now
-                    </button>
-                </div>
-
-                <!-- Job Card 4 -->
-                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Marketing & Media</span>
-                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Remote / Hybrid</span>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Digital Marketing & Social Lead</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
-                            Drive Instagram, YouTube, and digital campaigns, creator partnerships, and luxury brand storytelling in India.
-                        </p>
-                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
-                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
-                            <span class="text-lg font-bold text-gold-300 font-serif">₹40,000 - ₹75,000 / month</span>
-                        </div>
-                    </div>
-                    <button onclick="openApplyModal('Digital Marketing & Social Lead')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                        Apply Now
-                    </button>
-                </div>
-
-                <!-- Job Card 5 -->
-                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Events & Hospitality</span>
-                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Goa / Mumbai</span>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Event Coordinator & Brand Host</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
-                            Coordinate luxury launch galas, VIP lounge guest management, press meets, and lifestyle experience events.
-                        </p>
-                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
-                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
-                            <span class="text-lg font-bold text-gold-300 font-serif">₹35,000 - ₹65,000 / month</span>
-                        </div>
-                    </div>
-                    <button onclick="openApplyModal('Event Coordinator & Brand Host')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                        Apply Now
-                    </button>
-                </div>
-
-                <!-- Job Card 6 -->
-                <div class="bg-obsidian rounded-xl border border-gold-400/20 p-6 flex flex-col justify-between hover:border-gold-400/50 transition-all">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 bg-gold-400/10 border border-gold-400/30 text-gold-300 text-[10px] font-bold uppercase tracking-wider rounded">Retail Operations</span>
-                            <span class="text-xs text-gray-400"><i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> All Major Cities</span>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white mb-2">Luxury Fashion Sales Consultant</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed font-light mb-4">
-                            Provide personalized styling assistance, wardrobe curation, and premium customer service at luxury outlets.
-                        </p>
-                        <div class="bg-onyx p-3 rounded border border-white/5 mb-6">
-                            <span class="text-[10px] uppercase text-gray-400 block font-semibold">Compensation Package</span>
-                            <span class="text-lg font-bold text-gold-300 font-serif">₹28,000 - ₹48,000 / month</span>
-                        </div>
-                    </div>
-                    <button onclick="openApplyModal('Luxury Fashion Sales Consultant')" class="w-full py-3 bg-gradient-to-r from-gold-300 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all">
-                        Apply Now
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="verification" class="py-16 bg-obsidian border-y border-gold-400/20">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="glass-panel p-8 rounded-2xl border border-gold-400/30 space-y-6 text-center">
-                <div class="w-16 h-16 rounded-full bg-red-950/80 border border-red-500 flex items-center justify-center text-red-400 text-3xl mx-auto">
-                    <i class="fa-solid fa-shield-halved"></i>
-                </div>
-                <h2 class="font-cinzel text-2xl sm:text-3xl font-bold text-white">OFFICIAL ANTI-FRAUD & CANDIDATE SAFETY ADVISORY</h2>
-                <div class="text-xs sm:text-sm text-gray-300 font-light space-y-3 leading-relaxed max-w-3xl mx-auto text-left bg-onyx/80 p-6 rounded-lg border border-white/10">
-                    <p class="flex items-start gap-2">
-                        <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
-                        <span><strong>Zero Registration Fees:</strong> Official Playboy India HR never requests payment for job registration, interviews, modeling portfolios, or training kits.</span>
-                    </p>
-                    <p class="flex items-start gap-2">
-                        <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
-                        <span><strong>Official Channels Only:</strong> Always verify communications through our official website domain or verified Telegram HR handle.</span>
-                    </p>
-                    <p class="flex items-start gap-2">
-                        <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
-                        <span><strong>Legal & Professional Compliance:</strong> All recruitments strictly comply with Indian Employment Laws and standard corporate hiring practices.</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="perks" class="py-20 bg-onyx">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-2xl mx-auto mb-14">
-                <p class="text-gold-400 text-xs font-bold uppercase tracking-[0.3em] mb-2">Prestige & Benefits</p>
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white">WHY JOIN PLAYBOY INDIA</h2>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
-                    <i class="fa-solid fa-plane text-gold-400 text-3xl mb-4"></i>
-                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Travel Allowances</h3>
-                    <p class="text-xs text-gray-400 font-light">National & international campaign shoot travel fully covered.</p>
-                </div>
-                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
-                    <i class="fa-solid fa-award text-gold-400 text-3xl mb-4"></i>
-                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Global Exposure</h3>
-                    <p class="text-xs text-gray-400 font-light">Work with world-class stylists, directors, and luxury retail leaders.</p>
-                </div>
-                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
-                    <i class="fa-solid fa-shirt text-gold-400 text-3xl mb-4"></i>
-                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Apparel Wardrobe</h3>
-                    <p class="text-xs text-gray-400 font-light">Exclusive staff discounts and seasonal luxury apparel allowances.</p>
-                </div>
-                <div class="p-6 bg-obsidian rounded-lg border border-gold-400/10 text-center">
-                    <i class="fa-solid fa-handshake text-gold-400 text-3xl mb-4"></i>
-                    <h3 class="font-cinzel text-base font-bold text-white mb-2">Performance Bonus</h3>
-                    <p class="text-xs text-gray-400 font-light">Lucrative monthly performance incentives and campaign bonuses.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div id="apply-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-4">
-        <div class="bg-obsidian border border-gold-400/30 rounded-2xl max-w-xl w-full p-6 sm:p-8 relative overflow-hidden glass-panel max-h-[90vh] overflow-y-auto">
-            <button onclick="closeApplyModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white">
-                <i class="fa-solid fa-xmark text-2xl"></i>
-            </button>
-
-            <div class="text-center mb-6">
-                <span class="text-gold-400 text-xs font-bold uppercase tracking-widest">Playboy India Careers</span>
-                <h3 id="modal-role-title" class="font-cinzel text-2xl font-bold text-white mt-1">Candidate Application</h3>
-                <p class="text-xs text-gray-400 font-light mt-1">Submit your details for official HR evaluation.</p>
-            </div>
-
-            <form onsubmit="submitApplication(event)" class="space-y-4 text-left">
-                <input type="hidden" id="selected-role" value="General Application">
-
-                <div>
-                    <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Full Name *</label>
-                    <input type="text" required placeholder="Enter your official full name" 
-                           class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Phone Number (WhatsApp) *</label>
-                        <input type="tel" required placeholder="+91 98765 43210" 
-                               class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Email Address *</label>
-                        <input type="email" required placeholder="name@domain.com" 
-                               class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Preferred City *</label>
-                        <select required class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
-                            <option value="Mumbai">Mumbai</option>
-                            <option value="Delhi NCR">Delhi NCR</option>
-                            <option value="Bengaluru">Bengaluru</option>
-                            <option value="Goa">Goa</option>
-                            <option value="Other">Other Major City</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Experience Level *</label>
-                        <select required class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
-                            <option value="Fresher">Fresher / Beginner</option>
-                            <option value="1-3 Years">1 - 3 Years Experience</option>
-                            <option value="3+ Years">3+ Years Experience</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Resume / Instagram Portfolio Link</label>
-                    <input type="url" placeholder="https://instagram.com/yourprofile or portfolio link" 
-                           class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400">
-                </div>
-
-                <div>
-                    <label class="block text-xs uppercase font-bold text-gray-300 mb-1">Brief Introduction</label>
-                    <textarea rows="3" placeholder="Tell us about your background and why you wish to join..." 
-                              class="w-full px-4 py-3 bg-onyx border border-gold-400/30 rounded text-white text-xs focus:outline-none focus:border-gold-400"></textarea>
-                </div>
-
-                <div class="pt-2">
-                    <button type="submit" class="w-full py-3.5 bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600 text-black font-bold text-xs uppercase tracking-widest rounded hover:brightness-110 transition-all shadow-lg">
-                        Submit Application
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <a href="https://t.me/" target="_blank" 
-       class="fixed bottom-6 right-6 z-40 bg-sky-500 hover:bg-sky-400 text-white font-bold px-5 py-3.5 rounded-full shadow-2xl flex items-center gap-3 border border-white/20 transition-all transform hover:scale-105">
-        <i class="fa-brands fa-telegram text-2xl"></i>
-        <span class="text-xs uppercase tracking-wider hidden sm:inline-block">Telegram Recruitment VIP</span>
-    </a>
-
-    <footer class="bg-onyx border-t border-gold-400/10 py-12 text-gray-400 text-xs">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-white/10 pb-8">
-                <div class="flex items-center gap-3">
-                    <span class="font-cinzel text-lg font-bold text-white tracking-widest">PLAYBOY INDIA</span>
-                    <span class="text-[10px] text-gold-400 border border-gold-400/30 px-2 py-0.5 rounded">OFFICIAL PORTAL</span>
-                </div>
-                <div class="flex space-x-6">
-                    <a href="#positions" class="hover:text-gold-400">Openings</a>
-                    <a href="#verification" class="hover:text-gold-400">Anti-Fraud</a>
-                    <a href="#telegram-vip" class="hover:text-gold-400">Telegram Channel</a>
-                </div>
-            </div>
-
-            <p class="text-gray-500 text-[11px] leading-relaxed">
-                Official Notice: Playboy Enterprises and its authorized Indian partners adhere to standard employment norms. All modeling shoots, events, store operations, and brand ambassador programs operate under strict compliance with professional legal guidelines.
-            </p>
-
-            <div class="flex flex-col sm:flex-row justify-between items-center text-[10px] text-gray-600 pt-2">
-                <p>© 2026 PLAYBOY ENTERPRISES. ALL RIGHTS RESERVED.</p>
-                <p>Designed for Official India Career Operations</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        function openApplyModal(roleName) {
-            document.getElementById('selected-role').value = roleName;
-            document.getElementById('modal-role-title').innerText = roleName;
-            document.getElementById('apply-modal').classList.remove('hidden');
-        }
-
-        function closeApplyModal() {
-            document.getElementById('apply-modal').classList.add('hidden');
-        }
-
-        function submitApplication(event) {
-            event.preventDefault();
-            alert("Thank you! Your official application has been submitted to Playboy India HR. Our recruitment team will review your profile and contact you.");
-            closeApplyModal();
-            event.target.reset();
-        }
-    </script>
 </body>
 </html>
