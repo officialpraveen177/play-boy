@@ -3,8 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Join Our Telegram Community</title>
 
+    <!-- =========================
+         META PIXEL CODE
+    ========================== -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {
+        if(f.fbq)return;
+        n=f.fbq=function(){
+            n.callMethod ?
+            n.callMethod.apply(n,arguments) :
+            n.queue.push(arguments)
+        };
+
+        if(!f._fbq)f._fbq=n;
+        n.push=n;
+        n.loaded=!0;
+        n.version='2.0';
+        n.queue=[];
+
+        t=b.createElement(e);
+        t.async=!0;
+        t.src=v;
+
+        s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)
+    }(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+    );
+
+    /* Your Meta Pixel ID */
+    fbq('init', '1481185550533272');
+
+    /* Page View Event */
+    fbq('track', 'PageView');
+    </script>
+
+    <!-- Meta Pixel NoScript -->
+    <noscript>
+        <img
+            height="1"
+            width="1"
+            style="display:none"
+            src="https://www.facebook.com/tr?id=1481185550533272&ev=PageView&noscript=1"
+        />
+    </noscript>
+
+    <!-- =========================
+         PAGE CSS
+    ========================== -->
     <style>
         * {
             margin: 0;
@@ -97,6 +150,7 @@
             gap: 10px;
             box-shadow: 0 8px 20px rgba(32, 160, 225, 0.3);
             transition: all 0.2s ease;
+            cursor: pointer;
         }
 
         .btn-telegram:hover {
@@ -130,7 +184,7 @@
             >
         </div>
 
-        <!-- Tag / Badge -->
+        <!-- Badge -->
         <div class="badge">
             TELEGRAM COMMUNITY
         </div>
@@ -152,16 +206,30 @@
             target="_blank"
             rel="noopener noreferrer"
             class="btn-telegram"
+            onclick="trackTelegramContact()"
         >
             🚀 Join Telegram
         </a>
 
-        <!-- Footer Caption -->
+        <!-- Footer -->
         <p class="footer-text">
             Free to join • Click the button to continue
         </p>
 
     </div>
+
+
+    <!-- =========================
+         TELEGRAM BUTTON CONTACT EVENT
+    ========================== -->
+    <script>
+        function trackTelegramContact() {
+
+            /* Meta Contact Event */
+            fbq('track', 'Contact');
+
+        }
+    </script>
 
 </body>
 </html>
